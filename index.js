@@ -29,7 +29,7 @@ var funkyFunction = function() {
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
 
-// IFEE
+// IIFE to return value inside the func contained from the other func
 var theFunk = (funkyFunction())();
 
 
